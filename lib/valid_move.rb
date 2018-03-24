@@ -1,10 +1,10 @@
 # code your #valid_move? method here
 
 def valid_move? (array,index)
-  if position_taken?
-
+  if (position_taken?&&index.between(0,8)
+    return true
   else
-
+    return false
   end
 end
 
